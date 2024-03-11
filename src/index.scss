@@ -6,7 +6,7 @@
     padding: 0;
     margin: 0;
 
-    font-family: "Times New Roman";
+    font-family: "Area";
 }
 
 html 
@@ -27,8 +27,16 @@ a
     user-select: none;
 }
 
-// @font-face 
-// {
-//     font-family: "MagicSchoolOne"; // Daš naziv fontu kako ćeš ga pozivaš drugde
-//     src: url("./fonts/MagicSchoolOne.ttf"); // Kreiraj fonts folder
-// }
+@font-face 
+{
+    font-family: "Area";
+    font-weight: normal;
+    src: url("./fonts/Area-Regular.otf");
+}
+
+@font-face 
+{
+    font-family: "Area";
+    font-weight: bold;
+    src: url("./fonts/Area-Bold.otf");
+}
