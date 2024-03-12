@@ -1,0 +1,83 @@
+
+    
+    .footer-row {
+        border-top: 1px solid black;
+        padding: var(--medium-space) 0;
+        background-color: #dbdccb;
+        color: #222221;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .container {
+            max-width: 1600px;
+            width: 850.075px;
+            height: 33.600px;
+            margin-bottom: 0;
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
+            margin-right: auto;
+            margin-left: auto;
+            
+            
+            .row {
+                //display: grid;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .col {
+                    .facebook {
+                        display: inline-block;
+                        vertical-align: middle;
+                        width: 20px;
+                        height: 20px;
+                        margin-left: 1.5rem;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                    .instagram {
+                        display: inline-block;
+                        vertical-align: middle;
+                        width: 20px;
+                        height: 20px;
+                        margin-left: 1.5rem;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+            }
+        }  
+     
+    }
+
+    .footer-row1 {
+        padding: var(--medium-space) 0;
+        background-color: #df760d;
+        color: #ffffff;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .container {
+            max-width: 1600px;
+            width: 850.075px;
+            height: 33.600px;
+            margin-bottom: 0;
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
+            margin-right: auto;
+            margin-left: auto;
+            
+            
+            .row {
+                //display: grid;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+    
